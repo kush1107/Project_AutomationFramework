@@ -46,7 +46,7 @@ public class TestUtil extends TestBase {
 	
 // It is used for 2nd level menu navigation
 	
-	public static void navigate_to_menu2(WebElement menu,WebElement submenu,WebElement submenu2) throws InterruptedException
+	public static void navigate_to_option2(WebElement menu,WebElement submenu,WebElement submenu2) throws InterruptedException
 	{
 		Actions action = new Actions(driver);
 		action.moveToElement(menu).perform();
@@ -59,7 +59,7 @@ public class TestUtil extends TestBase {
 	
 	// It is used for 1st level menu navigation
 	
-		public static void navigate_to_menu1(WebElement menu,WebElement submenu) throws InterruptedException
+		public static void navigate_to_option1(WebElement menu,WebElement submenu) throws InterruptedException
 		{
 			Actions action = new Actions(driver);
 			action.moveToElement(menu).perform();
